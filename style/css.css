@@ -1,0 +1,61 @@
+html,body {
+    height: 100%;
+}
+header{
+    font-size: 20px;
+}
+header .row {
+    width: 70px;
+    margin-bottom: 15px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 770px;
+    border: white;
+    margin: 0 auto; /*поле по центру*/
+}
+#container div {
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+}
+.field_1 {
+    background-color: rgb(87, 151, 23);
+}
+.snake {
+    background-color: rgb(66, 85, 177);
+}
+
+.eat {
+    background-color: rgb(191, 57, 57);
+}
+.pop_up {
+    min-height: 200px;
+    min-width: 295px;
+    position: absolute;
+    top: calc(50% - 180px);
+    left: calc(50% - 163px);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 11px;
+    background-color: rgb(24, 104, 57);
+    
+}
+/* button.restart {
+    display: flex;
+    justify-content: center;
+} */
+.pop_up p {
+    padding-left: 60px;
+}
+.pop_up button {
+    margin: 25px 0px 0px 95px;
+    height: 40px;
+}
+.pop_up .p{
+    padding-left: 120px;
+}
+.pop_up .p_1{
+    padding-left: 80px;
+}
